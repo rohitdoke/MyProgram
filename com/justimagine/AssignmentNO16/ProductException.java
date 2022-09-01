@@ -1,4 +1,4 @@
-package com.justimagine.Exception;
+package com.justimagine.AssignmentNO16;
 
 public class ProductException extends Exception {
 
