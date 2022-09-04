@@ -4,32 +4,22 @@ public class HDFC extends Bank  {
 
 	
 	float rateOfInterest=4.5f;
-	double Interest;
+	float Interest;
 	
 	@Override
-	public void getCalculateInterest(double principleAmount, int tenure) {
-		// TODO Auto-generated method stub
+	public void getCalculateInterest(float principleAmount, int tenure) {
+		
 		
 		this.principleAmount=principleAmount;
 		this.tenure=tenure;
-		
-		
-		
-		Interest=principleAmount*tenure*rateOfInterest;
-		
-		
-				
-		
-		
-		
-		
-	}
+		float intersetPerYear=principleAmount/rateOfInterest;
+		Interest=principleAmount+(tenure*intersetPerYear);
+		}
+	
 	public void getHDFCDetails()
 	{
 		
 		System.out.println("Deatil of HDFCBank");
-	
-		
 		System.out.println("Principle Amount ="+principleAmount);
 		
 		System.out.println("tenure="+tenure);

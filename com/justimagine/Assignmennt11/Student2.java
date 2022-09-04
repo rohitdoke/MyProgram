@@ -30,12 +30,11 @@ public class Student2 extends Student {
 	public static void main(String[] args) {
 		
 		
-		//Student2 student2=new Student2("s.b.patil");
-		//student2.display();
+		
 		Student s1=new Student2("s.b.paatil");
 		
 		s1.display();
-		//=new Student("rohit",100);we can't crate object of abstract class
+		
 		
 	}
 

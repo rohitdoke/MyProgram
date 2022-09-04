@@ -5,12 +5,12 @@ public class TestBank {
 	public static void main(String[] args) {
 		
 		ICICBank i1=new ICICBank();
-		i1.getCalculateInterest(4000, 5);
+		i1.getCalculateInterest(4000, 4);
 		i1.getICICIBankDetails();
 		
 		
 		SBIBank sb=new SBIBank();
-		sb.getCalculateInterest(5000, 6);
+		sb.getCalculateInterest(5000, 2);
 		
 		sb.getSBIDetails();
 		

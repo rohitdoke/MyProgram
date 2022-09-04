@@ -10,10 +10,10 @@ public class AccountImpl implements Account {
 	@Override
 	public void getSavingAccount() {
 		// TODO Auto-generated method stub
-		System.out.println("Account Detail =");
+		System.out.println("Account Detail ");
 		
 		System.out.println("Name="+name);
-		System.out.println("Balance"+balance);
+		System.out.println("Balance="+balance);
 		
 		
 	}

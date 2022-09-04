@@ -1,6 +1,5 @@
 package com.justimagine.Collection.Hashset;
 
-import java.util.Collections;
 import java.util.HashSet;
 import java.util.Iterator;
 
@@ -18,6 +17,9 @@ public class OperationOnHashset {
 		s1.add(null);
 		
 		s1.add(10);
+	//	System.out.println(s1.add(10));
+		
+		
 		
 		Iterator<Integer> itr = s1.iterator();
 

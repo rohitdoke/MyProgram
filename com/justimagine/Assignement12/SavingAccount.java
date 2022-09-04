@@ -3,12 +3,8 @@ package com.justimagine.Assignement12;
 import java.util.Scanner;
 
 public class SavingAccount extends Account {
-
-	
-	
 	private String accountType;
 	long balance;
-	
 	
 	public void setSavingAccountDetails(String accountType,long balance)
 	{
@@ -19,8 +15,6 @@ public class SavingAccount extends Account {
 		
 	}
 	
-	
-	
 	public void getSavingAccountInformation()
 	{
 		super.getAccountInfo();
@@ -29,7 +23,6 @@ public class SavingAccount extends Account {
 		System.out.println("Balance="+balance);
 		
 	}
-	
 	public static void main(String[] args) {
 
 		SavingAccount s1=new SavingAccount();
@@ -41,20 +34,14 @@ public class SavingAccount extends Account {
 		
 		System.out.println("Please enter the Account Number");
 		int accountnumber = sc.nextInt();
-		
-		
-		
 		System.out.println("Please Enter the AccountName:");
 		String AccountName=sc.next();
 		
 		s1.setAccountDetail(accountnumber, AccountName);
-		
-		
 		System.out.println("please Enter the Account Type:");
 		
 		String AccountType=sc.next();
 		System.out.println("please Enter the Balane");
-		
 		
 		long Balance=sc.nextLong();
 		
@@ -66,8 +53,6 @@ public class SavingAccount extends Account {
 		s1.getSavingAccountInformation();
 		
 		sc.close();
-	
-	
 	}
 
 }
