@@ -6,7 +6,7 @@ public final class Test {
 	final int a;
 	int b;
 	
-	Test(int a,int b)
+	private Test(int a,int b)
 	{
 		this.a=a;
 		this.b=b;
@@ -25,7 +25,7 @@ public final class Test {
 		Test t1=new Test(10,45);
 		
 		t1.show();
-		
+		//Test t2=new Test(10,45);
 		//t1.a=50;
 		t1.b=56;
 		System.out.println("This is fianl   Variable in main method"+t1.a);
